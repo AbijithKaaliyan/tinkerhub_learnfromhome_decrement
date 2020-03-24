@@ -21,12 +21,14 @@ class Second extends StatelessWidget {
             ),
           ),
 
-                Center(
-                  child: CircleAvatar(
-                    backgroundImage: AssetImage('assets/naruto.jpg'),
-                    radius: 50,
+                Column(
+                  children: <Widget>[
+                    CircleAvatar(
+                      backgroundImage: AssetImage('assets/naruto.jpg'),
+                      radius: 50,
 
-                  ),
+                    ),
+                  ],
                 )
         ],
       ),
